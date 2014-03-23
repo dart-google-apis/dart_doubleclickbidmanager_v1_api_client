@@ -14,7 +14,7 @@ Adding dependency to pubspec.yaml
 
 ```
   dependencies:
-    google_doubleclickbidmanager_v1_api: '>=0.4.2'
+    google_doubleclickbidmanager_v1_api: '>=0.4.3'
 ```
 
 For web applications:
