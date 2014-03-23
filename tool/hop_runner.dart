@@ -3,7 +3,7 @@ library hop_runner;
 import 'package:hop/hop.dart';
 import 'package:hop/hop_tasks.dart';
 
-void main() {
+void main(List<String> args) {
 
   List pathList = [
     'lib/doubleclickbidmanager_v1_api_browser.dart',
@@ -11,9 +11,10 @@ void main() {
     'lib/doubleclickbidmanager_v1_api_client.dart'
   ];
 
-  addTask('docs', createDartDocTask(pathList, linkApi: true));
+  // TODO(adam): re enable when hop_docgen is available
+  // addTask('docs', createDartDocTask(pathList, linkApi: true));
 
   addTask('analyze', createAnalyzerTask(pathList));
 
-  runHop();
+  runHop(args);
 }

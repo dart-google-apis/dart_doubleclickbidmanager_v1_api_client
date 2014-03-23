@@ -14,7 +14,7 @@ Adding dependency to pubspec.yaml
 
 ```
   dependencies:
-    google_doubleclickbidmanager_v1_api: '>=0.4.1'
+    google_doubleclickbidmanager_v1_api: '>=0.4.2'
 ```
 
 For web applications:
@@ -29,13 +29,13 @@ For console application:
   import "package:google_doubleclickbidmanager_v1_api/doubleclickbidmanager_v1_api_console.dart" as doubleclickbidmanagerclient;
 ```
 
-Working with out authentication the following constructor can be called:
+Working without authentication the following constructor can be called:
 
 ```
   var doubleclickbidmanager = new doubleclickbidmanagerclient.Doubleclickbidmanager();
 ```
 
-Working with authentication then create a new `GoogleOAuth2` object and pass it to the constructor:
+To use authentication create a new `GoogleOAuth2` object and pass it to the constructor:
 
 
 ```
@@ -46,7 +46,7 @@ Working with authentication then create a new `GoogleOAuth2` object and pass it 
 ### Licenses
 
 ```
-Copyright (c) 2013 Gerwin Sturm & Adam Singer
+Copyright (c) 2013-2014 Gerwin Sturm & Adam Singer
 
 Licensed under the Apache License, Version 2.0 (the "License"); you may 
 not use this file except in compliance with the License. You may obtain a 

@@ -117,7 +117,7 @@ class FilterPair {
 /** List queries response. */
 class ListQueriesResponse {
 
-  /** The kind, fixed to "doubleclickbidmanager#listQueriesResponse". */
+  /** Identifies what kind of resource this is. Value: the fixed string "doubleclickbidmanager#listQueriesResponse". */
   core.String kind;
 
   /** Retrieved queries. */
@@ -155,7 +155,7 @@ class ListQueriesResponse {
 /** List reports response. */
 class ListReportsResponse {
 
-  /** The kind, fixed to "doubleclickbidmanager#listReportsResponse". */
+  /** Identifies what kind of resource this is. Value: the fixed string "doubleclickbidmanager#listReportsResponse". */
   core.String kind;
 
   /** Retrieved reports. */
@@ -258,7 +258,7 @@ class Parameters {
 /** Represents a query. */
 class Query {
 
-  /** The kind, fixed to "doubleclickbidmanager#query". */
+  /** Identifies what kind of resource this is. Value: the fixed string "doubleclickbidmanager#query". */
   core.String kind;
 
   /** Query metadata. */
@@ -469,7 +469,7 @@ class QuerySchedule {
   /** Time of day at which a new report will be generated, represented as minutes past midnight Range is 0 to 1439. Only applies to scheduled reports. */
   core.int nextRunMinuteOfDay;
 
-  /** Timezone in which a new report will be generated. */
+  /** Canonical timezone code for report generation time. Defaults to America/New_York. */
   core.String nextRunTimezoneCode;
 
   /** Create new QuerySchedule from JSON data */

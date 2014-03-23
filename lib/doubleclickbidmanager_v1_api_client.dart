@@ -11,3 +11,4 @@ export 'package:google_doubleclickbidmanager_v1_api/src/client_base.dart' show A
 part 'src/client/client.dart';
 part 'src/client/schemas.dart';
 part 'src/client/resources.dart';
+part 'src/client/utils.dart';
